@@ -1,4 +1,4 @@
-# gulp-gherkin-lint [![Build Status](https://travis-ci.org/lutzj82/gulp-gherkin.svg?branch=master)](https://travis-ci.org/lutzj82/gulp-gherkin)
+# gulp-gherkin-lint [![Build Status](https://travis-ci.org/lutzj82/gulp-gherkin-lint.svg?branch=master)](https://travis-ci.org/lutzj82/gulp-gherkin-lint)
 
 > Uses gherkin parser to parse feature files and reports on any parsing errors
 
