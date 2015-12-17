@@ -1,0 +1,33 @@
+{
+  "name": "gulp-gherkin-lint",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "lutzj82/gulp-gherkin-lint",
+  "author": {
+    "name": "jlutz",
+    "email": "jlutz@verge-solutions.com",
+    "url": "https://github.com/lutzj82"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3",
+    "chalk": "^1.1.1",
+    "gherkin": "^3.1.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
