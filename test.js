@@ -15,7 +15,7 @@ it('should pass when valid gherkin is presented', function (cb) {
 
   stream.write(new gutil.File({
     base: __dirname,
-    path: __dirname + '\\file.feature',
+    path: __dirname + '/file.feature',
     contents: new Buffer('Feature: Core: Scenarios, Steps, Mappings\n\nScenario: All steps passing means the scenario passes\nGiven the step "I add 4 and 5" has a passing mapping\n')
   }));
 
@@ -42,7 +42,7 @@ it('should find issue when invalid character in file', function (cb) {
 
   stream.write(new gutil.File({
     base: __dirname,
-    path: __dirname + '\\file.feature',
+    path: __dirname + '/file.feature',
     contents: new Buffer('@Feature: Core: Scenarios, Steps, Mappings\n\nScenario: All steps passing means the scenario passes\nGiven the step "I add 4 and 5" has a passing mapping\n')
   }));
 
